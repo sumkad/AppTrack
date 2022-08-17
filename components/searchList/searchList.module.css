@@ -1,0 +1,6 @@
+.jobContainer {
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    background-color: #ededed;
+}

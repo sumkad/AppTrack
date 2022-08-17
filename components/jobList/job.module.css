@@ -1,0 +1,59 @@
+.cardContainer {
+    width: 250px;
+    margin: 25px;
+    text-align: center;
+    background-color: #777777;
+    color: white;
+    border: #afafaf 5px solid;
+}
+
+.logoImgContainer {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    background-color: white;
+    overflow: hidden;
+}
+
+.logoImg {
+    height: 200px;
+    width: auto;
+}
+
+.company {
+    font-family: 'Saira', sans-serif;
+    height: 35px;
+    font-size: 35px;
+}
+
+.cardContainer:hover {
+    border: #00317b 5px solid;
+}
+
+@media only screen and (max-width: 1100px) {
+    .card {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .cardContainer {
+        width: 150px;
+        margin: 20px;
+        height: 210px;
+    }
+
+    .logoImg {
+        max-width: 150px;
+        max-height: 125px;
+    }
+
+    .logoImgContainer {
+        height: 125px;
+    }
+}
+
+.jobName { 
+    font-size: 25px;
+    margin-top: 7.5px;
+}

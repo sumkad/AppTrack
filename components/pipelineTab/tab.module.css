@@ -1,0 +1,36 @@
+.tabChosen {
+    background-color: black;
+    color: white;
+    margin-top: 5px;
+    margin-right: 5px;
+    border: 2px black solid;
+    height: 30px;
+}
+
+.tabNormal {
+    background-color: white;
+    color: black;
+    margin-top: 5px;
+    margin-right: 5px;
+    border: 2px black solid;
+    height: 30px;
+}
+
+.tabNormal:hover {
+    background-color: #adadad;
+}
+
+.removeButton {
+    height: 30px;
+    margin-top: 5px;
+    border-right: 0px;
+}
+
+.removeButton:hover {
+    background-color: red;
+}
+
+.arrowRight {
+    size: 40px;
+    margin-right: 10px;
+}

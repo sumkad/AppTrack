@@ -1,0 +1,19 @@
+.pipelineContainer {
+    display: flex;
+    background-color: #ededed;
+    width: 100%;
+    padding: 0%;
+    padding-top: 0.5%;
+    padding-left: 2%;
+    margin: 0%;
+    font-family: 'Saira', sans-serif;
+}
+
+.pipelineHeading {
+    background: #ededed;
+    font-family: 'Saira', sans-serif;
+    font-size: 40px;
+    margin: 0px;
+    padding-left: 3%;
+    padding-top: 2%;
+}

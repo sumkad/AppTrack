@@ -1,0 +1,10 @@
+.tabButton {
+    background-color: gold;
+    color: black;
+    margin: 5px;
+    border: 2px black solid;
+}
+
+.tabButton:hover {
+    background-color: #adadad;
+}

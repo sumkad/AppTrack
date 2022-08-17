@@ -1,0 +1,64 @@
+.logo {
+    float: left;
+    font-family: "Lobster", "cursive";
+    font-size: 45px;
+    margin: 0px;
+    margin-bottom: 5px;
+    padding: 0px;
+    padding-left: 10px;
+}
+
+.iconTabs {
+    float: right;
+    font-family: 'Saira', sans-serif;
+    display: none;
+}
+
+.textTabs {
+    display: flex;
+    float: right;
+}
+
+.text {
+    float: right;
+    padding: 10px;
+    font-size: 30px;
+}
+
+.text:hover {
+    background-color: #cfcfcf;
+    color: black;
+    transition: background-color 1s 0s;
+}
+
+.navbarContainer {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 60px;
+}
+
+@media only screen and (max-width: 600px) {
+    .logo {
+        font-size: 40px;
+    }
+
+    .icon {
+        margin-top: 5px;
+        margin-left: 20px;
+        float: right;
+    }
+
+    .iconTabs {
+        display: flex;
+        float: right;
+    }
+
+    .navbarContainer {
+        height: 50px;
+    }
+
+    .text {
+        display: none;
+    }
+}
