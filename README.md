@@ -1,5 +1,9 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+
+## Version 1.0
+This is the front-end created for AppTrack. The backend is currently going through some refactoring changes, so only the frontend has been pushed. The refactored backend code will be pushed in the next major release.
+
 ## Getting Started
 
 First, run the development server:
